@@ -24,7 +24,7 @@ class string
 
   public:
     using builder   = string_builder;
-    using size_type = size_type;
+    using size_type = ::size_type;
     using iterator  = const byte*;
 
     string(const byte* s) noexcept;
